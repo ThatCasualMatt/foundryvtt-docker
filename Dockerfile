@@ -1,5 +1,5 @@
 FROM node:carbon-jessie
-ARG BETAZIP=BETAZIP
+ARG BETAZIP=betazip
 ADD ${BETAZIP} /data/
 WORKDIR /app
 RUN npm install
