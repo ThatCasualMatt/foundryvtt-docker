@@ -1,4 +1,6 @@
 #! /bin/bash
 betazip=$BETAZIP
-WORKDIR /data
-wget -qO- -O tmp.zip $betazip && unzip tmp.zip && rm tmp.zip
+echo "Downloading Beta Files if valid address provided."
+wget -qO- -O tmp.zip $betazip && unzip tmp.zip -d /data && rm tmp.zip
+echo "Starting NODE"
+node .app/main.js --headless
