@@ -1,3 +1,4 @@
 FROM node:carbon-jessie
+WORKDIR /app
 RUN npm install
-CMD ["./entrypoint.sh"]
+CMD [ "node", "main.js", "--headless"]
