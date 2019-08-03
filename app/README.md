@@ -1,1 +1,0 @@
-Extract the contents of the Foundry VTT beta here.
