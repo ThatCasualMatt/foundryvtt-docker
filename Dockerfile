@@ -1,7 +1,5 @@
 FROM node:carbon-jessie
-
+ADD BetaZip /data/
 WORKDIR /app
-COPY app /app
 RUN npm install
 CMD [ "node", "main.js", "--headless"]
-EXPOSE 80
