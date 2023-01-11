@@ -1,3 +1,7 @@
+THIS PROJECT IS NO LONGER MAINTAINED AND FOUNDRY-VTT IS NO LONGER IN ALPHA.
+
+TO DEPLOY FOUNDRY-VTT WITH DOCKER, SEE https://github.com/felddy/foundryvtt-docker
+
 ## Prerequisites.
 
 First, install Docker Community Edition. See instructions for [MacOS](https://docs.docker.com/docker-for-mac/install/), [Windows](https://docs.docker.com/docker-for-windows/install/), or your preferred flavor of Linux ([CentOS, RHEL, Amazon Linux](https://docs.docker.com/install/linux/docker-ce/centos/), [Debian](https://docs.docker.com/install/linux/docker-ce/debian/), [Fedora](https://docs.docker.com/install/linux/docker-ce/fedora/), [Ubuntu](https://docs.docker.com/install/linux/docker-ce/ubuntu/)). After that, install [Docker Compose](https://docs.docker.com/compose/install/).
